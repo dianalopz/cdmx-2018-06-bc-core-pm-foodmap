@@ -1,7 +1,7 @@
 body {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
+/*Google Maps Styles*/
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {
