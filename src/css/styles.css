@@ -1,7 +1,19 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
 }
-/*Google Maps Styles*/
+.banner {
+  background-image: url(../images/pizza.png);
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+.bordermrg {
+  border: 2px solid #fff;
+  height: 170px;
+  padding: 10px;
+}
+/*GOOGLE MAPS*/
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
        #map {

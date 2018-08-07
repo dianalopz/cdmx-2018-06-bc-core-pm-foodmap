@@ -17,21 +17,23 @@
         <nav class="navbar">
             <img src="../images/t2e.png" alt="t2e">
             <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Encuentra un restaurant cerca de ti" aria-label="Search">
-                <button class="btn btn btn-danger my-2 my-sm-0" type="submit">Buscar</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Find a place" aria-label="Search">
+                <button class="btn btn btn-danger my-2 my-sm-0" type="submit">Search</button>
             </form>
         </nav>
     </header>
-    <img src="../images/pizza.png" alt="">
-    <div class="container">
-        <h1>Bienvenido</h1>
-        
+    <div class="banner">
+      <div class="bordermrg">
+        <h3>Welcome!</h3>
+        <h4>Find the best place to eat near you</h4>
+        <button id="btnlocation" type="button" class="btn btn-light mt-2"><img src="../images/location.png" alt="find me">Get my location</button>
+      </div>
     </div>
     <div id="map"></div>
     <!--JS Local-->
     <script type="text/javascript" src= "../js/map.js"></script>
     <!--Google Maps API-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIXIAq7waEhrjeJZ6szZAh3ZW9g6IodXQ&callback=initMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBay6FzZlIxo6TVTISmO7epkiW0QAHE8Ws&callback=initMap"
     async defer></script>
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
