@@ -34,7 +34,7 @@ btnlocation.addEventListener('click', e => {
 
 });
 
-//Red db de firebase
+//LEER DB RESTAURANTES
 let print = document.getElementById('restaurantes');
 
 db.collection("places").onSnapshot((querySnapshot) => {
@@ -43,9 +43,9 @@ db.collection("places").onSnapshot((querySnapshot) => {
       print.innerHTML += `<div class="card m-3">
         <img class="card-img-top" src="${doc.data().url}" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">${doc.data().name}</h5>
-          <p class="card-text">Type: ${doc.data().type}</p>
-          <p class="card-text">Price: ${doc.data().price}</p>
+          <h4 class="card-title">${doc.data().name}</h4>
+          <p class="card-text">Kind of food: ${doc.data().kind}</p>
+          <p class="card-text">Prices: ${doc.data().prices}</p>
           <p class="card-text">Rate: ${doc.data().rate}</p>
           <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">Reed more</button>
         </div>
@@ -65,8 +65,7 @@ db.collection("places").onSnapshot((querySnapshot) => {
               <p class="card-text">Phone: ${doc.data().phone}</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-dark" data-dismiss="modal"><img src="../images/buy.png" alt="buy"> Order my food</button>
             </div>
           </div>
         </div>

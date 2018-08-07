@@ -16,14 +16,14 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <img src="../images/t2e.png" alt="t2e">
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Find a place" aria-label="Search">
-                <button class="btn btn btn-danger my-2 my-sm-0" type="submit">Search</button>
-            </form>
+        <nav class="container">
+            <img src="../images/logo-transparent.png" alt="t2e">
         </nav>
     </header>
+    <form class="form-inline m-3">
+        <input class="form-control" type="search" placeholder="Find a place" aria-label="Search">
+        <button class="btn btn btn-danger my-2 my-sm-0" type="search" >Search</button>
+    </form>
     <div class="banner">
       <div class="bordermrg">
         <h3>Welcome!</h3>
@@ -31,10 +31,13 @@
         <button id="btnlocation" type="button" class="btn btn-light mt-2"><img src="../images/location.png" alt="find me">Get my location</button>
       </div>
     </div>
-    <!--Mapa-->
-    <div id="map"></div>
-    <!--Restaurats-->
-    <div id="restaurantes"></div>
+    <div class="container">
+      <!--MAPA-->
+      <div id="map"></div>
+      <!--RESTAURANTES-->
+      <h1 id="restaurants-section"><img src="../images/restar.png">  Restaurants  <img src="../images/restar.png"></h1>
+      <div id="restaurantes"></div>
+    </div>
     <!-- Conexion firebase -->
   	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
   	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-app.js"></script>

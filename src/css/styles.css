@@ -1,6 +1,17 @@
 body {
   font-family: 'Montserrat', sans-serif !important;
 }
+header {
+  background: #101820;
+}
+.container {
+  text-align: center;
+}
+#restaurants-section {
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  font-weight: bold;
+}
 .banner {
   background-image: url(../images/pizza.png);
   height: 200px;
@@ -26,3 +37,4 @@ body {
         margin: 0;
         padding: 0;
       }
+
