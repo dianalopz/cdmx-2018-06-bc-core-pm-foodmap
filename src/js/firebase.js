@@ -4,12 +4,12 @@ window.restaurantes = {
     iniciaFirebase: () => {
         //Apis firebase
         const config = {
-            apiKey: "AIzaSyCiLDBi-b0s3qQ7StQwIpepNwyEX65LHyo",
-            authDomain: "affamato-project.firebaseapp.com",
-            databaseURL: "https://affamato-project.firebaseio.com",
-            projectId: "affamato-project",
-            storageBucket: "affamato-project.appspot.com",
-            messagingSenderId: "371498322149"
+            apiKey: "AIzaSyBJPOZsUg2GtNivv8uyWMtNnt2XGOnjwO4",
+            authDomain: "restaurantes-a1f02.firebaseapp.com",
+            databaseURL: "https://restaurantes-a1f02.firebaseio.com",
+            projectId: "restaurantes-a1f02",
+            storageBucket: "restaurantes-a1f02.appspot.com",
+            messagingSenderId: "807184694516"
           };
 
           //Agregando apis a configuracion incial
