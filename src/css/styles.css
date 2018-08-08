@@ -4,6 +4,9 @@ body {
 header {
   background: #101820;
 }
+#logo {
+  height: 120px;
+}
 .container {
   text-align: center;
 }
