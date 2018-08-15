@@ -1,27 +1,60 @@
-#  Time To Eat
 
-Bienvenido a la web-app que te muestra los mejores lugares para comer cerca de ti. Debido a la innumerable camtidad de aplicaiones de comida existentes en la web, T2E es tu opcion para encontrar algo delicioso que comer  tanto en un plano local como en cualquier lugar del mundo en el que te encuentres, ademas puedes encontrar cualquier tipo de comida ya que tenemos una seccion para compartir resetas por si lo que buscas es cocinar ;)
+# Time To Eat :fork_and_knife:
+### *Encuentra los mejores restaurantes cerca con un solo clic*
 
-#### Estudio de mercado.
+Bienvenido a la web-app que te muestra los mejores lugares para comer cerca de ti, T2E es tu opción para encontrar algo delicioso que comer sin importar la hora o el tipo de comida que busques.
 
-Actualmente el mercado de aplicaciones de comida es sin duda uno de los temas más demandados y repetidos, existen aplicaciónes tanto saludables como de aprendizaje y sociales, cada una con un objetivo específico, es importante tener en cuenta que algunas de las mas exitosas y efectivas son aquellas que permiten a los usuarios buscar recetas, fotos y videos de una forma directa y dinámica.
+# Investigación y estrategia :pencil:
 
-![Bechmark]
+Actualmente el mercado de aplicaciones de comida es sin duda uno de los temas más demandados y repetidos, existen aplicaciónes tanto saludables como de aprendizaje y sociales, cada una con un objetivo específico, es importante tener en cuenta que algunas de las mas exitosas y efectivas son aquellas que permiten a los usuarios buscar fotos, videos y reseñas de una forma directa y dinámica.
 
-![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
+## Objetivo del negocio
 
-En la vista principal se muestran todos los restaurantes "cerca de ti" junto
-con el input para filtrar tu elección *(Los criterios de filtrado son decisión
-tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
-![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
+ - Convertirse en el socio tecnológico de la industria restaurantera en México, ayudando a pequeños locales para que puedan abrir sus servicios de pedidos en línea.
 
-Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
-restaurantes que cumplan con la condición.
-![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
+## Historias de usuario
 
-Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
-este a través de un modal.
-![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
+- Historia de usuario **No. 1**: **Como** usuario de T2E **quiero** saber el ranking y reseñas de lugares para comer cerca de mi **para** poder elegir que comer y conocer nuevos lugares.
+- Historia de usuario **No.2**: **Como** restaurante afiliado a T2E **quiero** conseguir nuevos clientes **para** aumentar mis pedidos y obtener mejores ganancias.
+- Historia de usuario **No.3**: **Como** socio de T2E **quiero** ofrecer la mayor cantidad de restaurantes con servicio de comida a domicilio **para** que mis usuarios aumenten.
 
-Una vez cerrado el modal debe volver a la vista principal.
-![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
+### Escenarios y casos de uso
+
+ Definimos los procesos que realizan los usuarios en sus contextos reales, a continuación mostramos un ejemplo:
+
+![Escenario](src/images/escenario.jpg)
+
+## Navegación y usabilidad
+
+Definimos todos los flujos funcionales que tendrá nuestra app web tanto del lado del usuario para el registro, como para el administrador con la consulta de los datos:
+
+#### Flujo de usuario para registro:
+
+![registro](src/images/flujo.jpg)
+
+# Diseño Visual :art:
+
+![Propuesta de diseño](src/images/propuesta.png)
+
+## Logotipo
+
+El logotipo de *Time To Eat* asemeja un mesero llevando un platillo para dar una sensación de coherencia y fijar en la memoria el propósito de la marca, ademas de denotar sompesa en que el platillo puede ser de cualquier índole.
+
+![Logotipo](src/images/t2e.png)
+
+## Colores
+
+El color azul es el que más predomina en el diseño debido a que según la psicología del color, el azul simboliza armonía, fidelidad, simpatía, paz, serenidad, confianza, comunicación, etc. y precisamente en un proceso de registro que puede llegar a estresar al usuario el propósito es brindarle la mayor comodidad y agrado posibles en el proceso.
+
+![Colores](src/images/colores.png)
+
+## Prototipos de alta fidelidad
+
+### Vistas de registro
+![Prototipos de alta fidelidad](src/images/altafidelidad1.png)
+![Prototipos de alta fidelidad](src/images/altafidelidad2.png)
+![Prototipos de alta fidelidad](src/images/altafidelidad3.png)
+![Prototipos de alta fidelidad](src/images/altafidelidad4.png)
+![Prototipos de alta fidelidad](src/images/altafidelidad5.png)
+
+## [Prototipo clickable](https://marvelapp.com/9b9ijf7)
